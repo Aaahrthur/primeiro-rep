@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Tudo Sobre o Glass</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <LInk rel="stylesheet" href="css/mult.css">
+
+</head>
+
+<body>
+
+    <div id="interface">
+        <header id="cabecaleo">
+            <hgroup>
+                <h1>Google Glass</h1>
+                <h2>A revolução do <b>Google</b> está chegando</h2>
+            </hgroup>
+            <img id="icone" src="imagens/multimidia.png" alt="">
+
+            <nav id="menu">
+                <h1>Menu Principal</h1>
+                <ul type="disc">
+                    <li onmouseover="mudafoto('imagens/home-2-cutout.png')"
+                        onmouseout="mudafoto('imagens/multimidia.png')"><a href="index.html">Home</a></li>
+                    <li onmouseover="mudafoto('imagens/especificacoes.png')"
+                        onmouseout="mudafoto('imagens/multimidia.png')"><a href="specific.html">Especificação</a></li>
+                    <li onmouseover="mudafoto('imagens/fotos.png')" onmouseout="mudafoto('imagens/multimidia.png')"><a
+                            href="fotos.html">fotos</a></li>
+                    <li onmouseover="mudafoto('imagens/multimidia.png')"
+                        onmouseout="mudafoto('imagens/multimidia.png')"><a href="mult.html">Multimídia</a></li>
+                    <li onmouseover="mudafoto('imagens/contato.png')" onmouseout="mudafoto('imagens/multimidia.png')"><a
+                            href="faleConosco.html">Fale Conosco</a></li>
+
+                </ul>
+            </nav>
+
+
+        </header>
+        <section id="corpo-full">
+        <article id="noticia-principal">
+            <header id="cab-artigo">
+                <hgroup>
+
+                    <h3>Glass > Multimídia</h3>
+                    <h1>Sons e vídeos</h1>
+                    <h2>por Arthur</h2>
+                    <h3 class="direita">Atualizado em --/--/----</h3>
+
+
+                </hgroup>
+            </header>
+            <!--AUDIO e Vídeo-->
+            <div id="tv-radio">
+                <audio id="audio" controls="controls">
+                    <source src="Midia/2009-lovers-carvings-bibio.mp3" type="audio/mpeg">
+                </audio>
+                <video id="video" controls="controls" >
+                    <source src="Midia/getting-started.mp4" type="video/mp4">
+                </video>
+
+            </div>
+        </article>
+        </section>
+        <footer id="rodape">
+            <p>Copyright &copy;2020 - Arthur<br>
+                <a href="https:facebook.com/cursoemvideo" target="_blank">Facebook</a> /
+                <a href="https:twitter.com/cursoemvideo" target="_blank">Twitter</a></p>
+        </footer>
+
+    </div>
+</body>
+<script src="funScript/script.js"></script>
+
+</html>
